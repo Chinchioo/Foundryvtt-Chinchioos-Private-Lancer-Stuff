@@ -1,0 +1,46 @@
+{
+  "id": "chinchioos-private-lancer-stuff",
+  "title": "Chinchioo's Private Lancer Stuff",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lancer-weapon-fx",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "lancer",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "My private stuff do not touch!!!",
+  "authors": [
+    {
+      "name": "Chinchioo",
+      "discord": "Chinchioo"
+    }
+  ],
+  "url": "https://github.com/Chinchioo/Foundryvtt-Chinchioos-Private-Lancer-Stuff",
+  "packs": [
+    {
+      "name": "chinchioos-macros",
+      "label": "Chinchioo's Macros",
+      "path": "packs/chinchioos-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "lancer"
+    }
+  ]
+}
